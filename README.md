@@ -24,7 +24,7 @@ Table of Contents
 
 Una serie temporal se define como una colección de datos sucesivos que se recopilan, observan o registran cronológicamente en intervalos de tiempo regulares (diario, semanal, semestral, anual, entre otros).
 
-![image](https://user-images.githubusercontent.com/51028737/113068904-7af85780-917c-11eb-8a8e-1b0fabfebb09.png)
+![image](https://user-images.githubusercontent.com/51028737/113069131-e4786600-917c-11eb-99a7-843da08390d5.png)
 
 Las series temporales son un caso particular de los procesos estocásticos, ya que un proceso estocástico es una secuencia de variables aleatorias, ordenadas y equidistantes cronológicamente referidas a una característica observable en diferentes momentos.
 
