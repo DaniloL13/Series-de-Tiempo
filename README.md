@@ -38,16 +38,16 @@ Los componentes que forman una serie temporal son los siguientes:
 
 - Tendencia: Se puede definir como un cambio a largo plazo que se produce en relación al nivel medio, o el cambio a largo plazo de la media. La tendencia se identifica con un movimiento suave de la serie a largo plazo.
 
+![image](https://user-images.githubusercontent.com/51028737/113071715-90708000-9182-11eb-83d1-aca5b977a295.png)
 
 - Estacionalidad: Se la  identifica como un movimiento suave de la serie a largo plazo, es decir, es el comportamiento recursivo o patrón  que responde a las mismas fechas en el tiempo, durante  algunos periodos.
 
-![image](https://user-images.githubusercontent.com/51028737/113071311-b184a100-9181-11eb-99f4-4208c4c17420.png)
+![image](https://user-images.githubusercontent.com/51028737/113071742-9e260580-9182-11eb-8d18-1256b2c4610a.png)
 
 
 - Ciclo: Es la fluctuación en forma de onda alrededor de la tendencia.Se caracteriza porque su duración es irregular.
 
-
-![image](https://user-images.githubusercontent.com/51028737/113071194-7a15f480-9181-11eb-8227-1c02b5b2c118.png)
+![image](https://user-images.githubusercontent.com/51028737/113071770-aed67b80-9182-11eb-868c-ceff1b3ba2c0.png)
 
 
 - Irregular: Esta componente no responde a ningún patrón o comportamiento sistemático sino que es el resultado de cuestiones  fortuitas implícitas de la serie.
