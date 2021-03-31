@@ -32,3 +32,66 @@ Algunos ejemplos de series temporales vienen de campos como la economía (produc
 
 El objetivo central de una serie temporal reside en estudiar los cambios en esa variable con respeto al tiempo. De manera que, se pueda predecir sus valores futuros (predicción o proyecciones). Por lo tanto, el análisis de series temporales presenta un conjunto de técnicas estadísticas que permiten construir el comportamiento pasado de la variable, para tratar de predecir el comportamiento futuro para la toma de decisiones.
 
+**Componentes de una serie temporal**
+
+Los componentes que forman una serie temporal son los siguientes:
+
+- Tendencia: Se puede definir como un cambio a largo plazo que se produce en relación al nivel medio, o el cambio a largo plazo de la media. La tendencia se identifica con un movimiento suave de la serie a largo plazo.
+
+
+- Estacionalidad: Se la  identifica como un movimiento suave de la serie a largo plazo, es decir, es el comportamiento recursivo o patrón  que responde a las mismas fechas en el tiempo, durante  algunos periodos.
+
+![image](https://user-images.githubusercontent.com/51028737/113071311-b184a100-9181-11eb-99f4-4208c4c17420.png)
+
+
+- Ciclo: Es la fluctuación en forma de onda alrededor de la tendencia.Se caracteriza porque su duración es irregular.
+
+
+![image](https://user-images.githubusercontent.com/51028737/113071194-7a15f480-9181-11eb-8227-1c02b5b2c118.png)
+
+
+- Irregular: Esta componente no responde a ningún patrón o comportamiento sistemático sino que es el resultado de cuestiones  fortuitas implícitas de la serie.
+
+![image](https://user-images.githubusercontent.com/51028737/113071115-55218180-9181-11eb-80b2-a56f7f33a414.png)
+
+
+### Procesos Estocásticos
+
+Un proceso estocástico \((𝒙_𝒕)\) es una sucesión de variables  aleatorias ordenadas en el tiempo (en el caso de series temporales). Por lo que, las series temporales se definen como un caso particular de los procesos estocásticos.
+
+Lo ideal es tener una serie de tiempo con media y varianza (más o menos) constante.
+
+**Tipos de series temporales**
+
+Las series temporales se pueden dividir en:
+
+- Estacionarias: es aquella en la que las propiedades estadísticas de la serie son estables, no varían con el tiempo, más en concreto su media, varianza y covarianza se mantienen constantes a lo lardo del tiempo. Si una serie temporal tiene una media constante a lo largo del tiempo, decimos que es estacionaria con respecto a la media. Si tiene varianza constante con respecto al tiempo, decimos que es estacionaria en varianza.
+
+- No estacionarias: son aquellas en las que las propiedades estadísticas de la serie sí varían con el tiempo. Estas series pueden mostrar cambio de varianza, tendencia o efectos estacionales a lo largo del tiempo. Una serie es no estacionaria en media cuando muestra una tendencia, y una serie es no estacionaria en varianza cuando la variabilidad de los datos es diferente a lo largo de la serie.
+
+La importancia de esta división reside en que la estacionaridad (en media y en varianza) es un requisito que debe cumplirse para poder aplicar modelos paramétricos de análisis y predicción de series de datos. Ya que con series estacionarias podemos obtener predicciones fácilmente, debido a que como la media es constante se puede estimar con todos los datos y utilizar este valor para predecir una nueva observación. Y también permite obtener intervalos de confianza para las predicciones. 
+
+### Procesos Estocásticos Estacionarios
+
+Un proceso estocástico \((𝒙_𝒕)\) es estacionario en sentido débil cuando su distribución de probabilidad varía de forma más o menos constante a lo largo de cierto periodo de tiempo.
+
+Un tipo especial de serie estacionaria es la serie denominada **ruido blanco**. Un ruido blanco es una serie estacionaria tal que ninguna observación influye sobre las siguientes, es decir, donde los valores son independientes e idénticamente distribuidos a lo largo del tiempo con media y covarianza cero e igual varianza.
+
+![image](https://user-images.githubusercontent.com/51028737/113071563-3ff92280-9182-11eb-8e04-ef9191c282df.png)
+
+Otro tipo especial de serie temporal es la llamada **camino aleatorio**, una serie es un camino aleatorio si la primera diferenciación de la serie es un ruido blanco.
+
+Las series temporales también se pueden dividir según cuántas variables se observan o según su variabilidad:
+
+- Univariante: la serie temporal es un conjunto de observaciones sobre una única caracteristica o variable.
+- Multivariante: (o vectorial): la serie temporal es un conjunto de observaciones de varias variables. <br>
+<br>
+- Homocedástica: una serie es homocedástica si su variabilidad se mantiene constante a lo largo de la serie.
+- Heterocedástica: una serie es heterocedástica cuando la variabilidad de la serie aumenta o disminuye a lo largo del tiempo.
+
+Por otro lado, la variable que se observa en una serie temporal puede ser de tipo:
+
+- Flujo: variable cuya cantidad es acumulada a lo largo del tiempo, por ejemplo: inversión, ahorro, etc.
+- Stock: variable cuya cantidad se mide en un determinado momento del tiempo, por ejemplo: población, nº parados, etc.
+
+
