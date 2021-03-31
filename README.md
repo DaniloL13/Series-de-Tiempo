@@ -84,14 +84,16 @@ Otro tipo especial de serie temporal es la llamada **camino aleatorio**, una ser
 Las series temporales también se pueden dividir según cuántas variables se observan o según su variabilidad:
 
 - Univariante: la serie temporal es un conjunto de observaciones sobre una única caracteristica o variable.
-- Multivariante: (o vectorial): la serie temporal es un conjunto de observaciones de varias variables. <br>
-<br>
+- Multivariante: (o vectorial): la serie temporal es un conjunto de observaciones de varias variables. 
+
+Además se tiene series de tipo:
+
 - Homocedástica: una serie es homocedástica si su variabilidad se mantiene constante a lo largo de la serie.
 - Heterocedástica: una serie es heterocedástica cuando la variabilidad de la serie aumenta o disminuye a lo largo del tiempo.
 
 Por otro lado, la variable que se observa en una serie temporal puede ser de tipo:
 
-- Flujo: variable cuya cantidad es acumulada a lo largo del tiempo, por ejemplo: inversión, ahorro, etc.
-- Stock: variable cuya cantidad se mide en un determinado momento del tiempo, por ejemplo: población, nº parados, etc.
+- Flujo: variable cuya cantidad es acumulada a lo largo del tiempo como la inversión o el ahorro.
+- Stock: variable cuya cantidad se mide en un determinado momento del tiempo como la población.
 
 
